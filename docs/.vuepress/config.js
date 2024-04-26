@@ -1,19 +1,10 @@
 module.exports = {
   title: 'oulong的博客',
   description: 'oulong的博客',
-  theme: 'reco',
+  // theme: 'reco',
   base: '/blog/',
   themeConfig: {
-    nav: [
-      { text: '首页', link: '/' },
-      {
-        text: 'Shark Xu 的博客',
-        items: [
-          { text: '掘金', link: 'https://juejin.cn/user/233526039432445' },
-          { text: 'Github', link: 'https://github.com/Xusssyyy' },
-        ],
-      },
-    ],
+    nav: [{ text: '首页', link: '/' }],
     sidebar: [
       {
         title: '欢迎学习',
@@ -22,12 +13,15 @@ module.exports = {
         children: [{ title: '博客简介', path: '/' }],
       },
       {
-        title: '基础篇',
-        path: '/blogs/1',
+        title: 'vue2源码',
+        path: '/vue2/init/',
         collapsable: true,
         children: [
-          { title: '第一篇', path: '/blogs/1' },
-          { title: '第二篇', path: '/blogs/2' },
+          { title: '初始化', path: '/vue2/init' },
+          { title: '响应式原理', path: '/vue2/reactive' },
+          { title: '组件挂载流程', path: '/vue2/mount' },
+          { title: '组件更新流程', path: '/vue2/update' },
+          { title: 'vnode Diff', path: '/vue2/diff' },
         ],
       },
     ],
