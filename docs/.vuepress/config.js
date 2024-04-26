@@ -2,7 +2,7 @@ module.exports = {
   title: 'oulong的博客',
   description: 'oulong的博客',
   theme: 'reco',
-  base: '/oulong6/',
+  base: '/blogs/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
