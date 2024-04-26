@@ -28,7 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: node 版本
         run: node -v
-
+      - name: 按照依赖
+        run: npm install
       # Runs a set of commands using the runners shell
       - name: 开始构建
         run: npm run docs:build
