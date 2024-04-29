@@ -24,6 +24,12 @@ module.exports = {
           { title: 'vnode Diff', path: '/vue2/diff' },
         ],
       },
+      {
+        title: 'elementUI',
+        path: '/elementUI/button',
+        collapsable: true,
+        children: [{ title: 'button', path: '/elementUI/button' }],
+      },
     ],
   },
 };
